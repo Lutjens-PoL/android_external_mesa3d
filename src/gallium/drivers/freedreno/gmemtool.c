@@ -96,6 +96,7 @@ struct gpu_info {
 static const struct gpu_info gpu_infos[] = {
    {"a306", 307, 4, SZ_128K},
    {"a405", 405, 4, SZ_256K},
+   {"a506", 506, 4, SZ_128K + SZ_8K},
    {"a530", 530, 4, SZ_1M},
    {"a618", 618, 1, SZ_512K},
    {"a630", 630, 1, SZ_1M},
